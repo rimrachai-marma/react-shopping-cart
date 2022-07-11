@@ -5,7 +5,7 @@ import CartItem from './CartItem';
 import { formatCurrency } from '../../utilities';
 
 function Cart({ isOpen }) {
-  const { closeCart, cartItems } = useCart();
+  const { closeCart, cartItems, clearCart } = useCart();
 
   const totalPrice = cartItems.reduce((acc, item) => {
     return acc + item.price * item.quantity;
@@ -21,6 +21,15 @@ function Cart({ isOpen }) {
         <Offcanvas.Title className="text-uppercase">
           Shopping cart
         </Offcanvas.Title>
+        {!(cartItems.length === 0) && (
+          <Button
+            className="text-uppercase"
+            variant="outline-danger"
+            onClick={clearCart}
+          >
+            Clear cart
+          </Button>
+        )}
       </Offcanvas.Header>
       <Offcanvas.Body>
         {cartItems.length === 0 ? (
