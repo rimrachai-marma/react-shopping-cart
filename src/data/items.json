@@ -34,41 +34,5 @@
     "name": "Item 6",
     "price": 16.5,
     "image": "images/sample.jpg"
-  },
-  {
-    "id": "07",
-    "name": "Item 7",
-    "price": 12.99,
-    "image": "images/sample.jpg"
-  },
-  {
-    "id": "08",
-    "name": "Item 8",
-    "price": 18.99,
-    "image": "images/sample.jpg"
-  },
-  {
-    "id": "09",
-    "name": "Item 9",
-    "price": 22.99,
-    "image": "images/sample.jpg"
-  },
-  {
-    "id": "10",
-    "name": "Item 10",
-    "price": 16.5,
-    "image": "images/sample.jpg"
-  },
-  {
-    "id": "11",
-    "name": "Item 11",
-    "price": 12.99,
-    "image": "images/sample.jpg"
-  },
-  {
-    "id": "12",
-    "name": "Item 12",
-    "price": 18.99,
-    "image": "images/sample.jpg"
   }
 ]
